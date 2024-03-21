@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Roboto } from "next/font/google";
 
 import "./globals.css";
 export const metadata: Metadata = {
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
 		icon: "/assets/images/apple.svg",
 	},
 };
-
+const roboto = Roboto({ weight: ["400", "700"], subsets: ["greek", "latin"] });
 export default function RootLayout({
 	children,
 }: Readonly<{

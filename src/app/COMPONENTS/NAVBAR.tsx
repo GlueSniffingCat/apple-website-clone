@@ -10,7 +10,7 @@ const Navbar: React.FC<NavbarProps> = (props) => {
 	// Destructure props if needed
 
 	return (
-		<div className="z-10 absolute top-4 w-full grid grid-cols-2 md:grid-cols-3 items-center gap-4 p-8">
+		<div className="grid grid-cols-2 md:grid-cols-3 items-center gap-4 p-8">
 			<div>
 				<Image
 					src="/assets/images/apple.svg"
